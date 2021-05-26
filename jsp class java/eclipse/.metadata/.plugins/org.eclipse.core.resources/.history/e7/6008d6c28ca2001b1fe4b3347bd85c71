@@ -1,0 +1,12 @@
+package com;
+
+public  class Driver extends Car {
+	@Override
+	void start() {
+		System.out.println("car styarted");
+	}
+@Override
+void Shift() {
+	System.out.println("shifting");
+}
+}

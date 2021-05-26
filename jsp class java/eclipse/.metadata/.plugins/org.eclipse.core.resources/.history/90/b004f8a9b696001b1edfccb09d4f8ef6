@@ -1,0 +1,24 @@
+package updown;
+class demo1{
+	int x=10;
+	void test() {
+		System.out.println(" test() method of dmo1");
+	}
+}
+class demo2 extends demo1{
+	int y=10;
+	void disp() {
+		System.out.println(" disp() method of dmo2");
+	}
+}
+
+public class mainCls {
+
+	public static void main(String[] args) {
+		 
+     demo1 obj= new demo2();
+		
+		
+	}
+
+}

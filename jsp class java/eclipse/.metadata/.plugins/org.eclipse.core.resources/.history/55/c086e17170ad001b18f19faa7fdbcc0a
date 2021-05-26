@@ -1,0 +1,16 @@
+package vowels;
+import java.util.Scanner;
+
+
+public class vowels {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter word");
+		String word=scan.nextLine().toLowerCase();
+	    char[] vowels= {'a','e','i','o','u'};
+	  
+		//System.out.println(word);
+	}
+}

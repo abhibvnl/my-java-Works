@@ -1,0 +1,9 @@
+package bean;
+
+public class employee {
+	
+	private int id;
+	private String name;
+	private double salary;
+
+}

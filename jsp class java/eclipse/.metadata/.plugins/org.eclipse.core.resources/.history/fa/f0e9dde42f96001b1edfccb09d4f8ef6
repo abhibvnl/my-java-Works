@@ -1,0 +1,15 @@
+package accesSPec;
+
+public class demo1 {
+  
+	void test() {
+		int x=0;
+	}
+}
+ class demo2 extends demo1{
+	 
+	 protected void test() {
+	 
+		 int x=01;
+		 }
+	 }

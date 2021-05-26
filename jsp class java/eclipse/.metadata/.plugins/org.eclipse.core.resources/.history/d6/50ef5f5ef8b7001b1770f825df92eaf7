@@ -1,0 +1,11 @@
+package upperCaseLowerCase;
+
+public class prac {
+
+	public static void main(String[] args) {
+		
+		int msg='a';
+		
+		System.out.println(msg);
+	}
+}

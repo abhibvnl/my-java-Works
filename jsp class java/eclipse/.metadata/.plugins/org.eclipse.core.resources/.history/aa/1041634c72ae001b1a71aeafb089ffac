@@ -1,0 +1,30 @@
+package vowels;
+
+public class sample {
+
+	public static void main(String[] args) {
+		
+		String word="hele";
+		char wordArray[]= {'h','e','l','e'};
+		char[] vowels= {'a','e','i','o','u'};
+		int cnt3=0;
+		int cnt4=0;
+		String finalArray[]= {"7","22"};
+		int vowelsCnt=2;
+		 String newWord=word;
+			for (int i=0;i<wordArray.length;i++) {
+			
+				for(int j=0; j<vowels.length; j++) {
+					if(wordArray[i]==vowels[j]) {
+						String s3=Character.toString(wordArray[i]);
+						 newWord=newWord.replace(s3,finalArray[cnt3]);
+						 System.out.println(cnt3);
+					     cnt3++;
+					}
+				   }
+				if (cnt4>vowelsCnt);
+				break;
+			}
+			System.out.println(newWord);//
+	}
+}

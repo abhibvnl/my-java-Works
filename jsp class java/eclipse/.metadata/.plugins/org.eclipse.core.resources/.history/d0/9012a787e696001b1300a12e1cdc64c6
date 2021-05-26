@@ -1,0 +1,26 @@
+package upex3;
+
+class demo1 {
+	int x=10;
+	void test(){
+		System.out.println(" test() of demo1");
+	}
+}
+
+class demo2 {
+	int y=20;
+	void dispt(){
+		System.out.println(" test() of demo1");
+	}
+}
+class demo3 {
+	int z=30;
+	void view(){
+		System.out.println(" test() of demo1");
+	}
+}
+public class maincls {
+ public static void main(String[] args) {
+	
+}
+}

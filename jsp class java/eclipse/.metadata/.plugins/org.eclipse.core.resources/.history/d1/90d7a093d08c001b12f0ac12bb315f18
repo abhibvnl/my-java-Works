@@ -1,0 +1,13 @@
+notes of default constructor;
+
+public class c1{
+  int x=10;         //while compiling the default constrtr AS is public bcoz of class AS is public
+
+
+}
+
+ class c1{
+  int x=10;         //while compiling the default constrtr AS is package bcoz of class AS is package
+
+
+}

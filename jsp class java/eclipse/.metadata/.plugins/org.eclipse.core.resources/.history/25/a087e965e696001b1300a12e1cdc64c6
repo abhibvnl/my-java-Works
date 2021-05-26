@@ -1,0 +1,14 @@
+package updownex3;
+
+class demo {
+	int x=10;
+	void test(){
+		System.out.println(" test() of demo1");
+	}
+}
+
+public class maincls {
+ public static void main(String[] args) {
+	
+}
+}

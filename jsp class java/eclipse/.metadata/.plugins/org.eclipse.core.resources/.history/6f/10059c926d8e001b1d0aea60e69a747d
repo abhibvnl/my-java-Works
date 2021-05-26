@@ -1,0 +1,20 @@
+package inheritence;
+
+class demoa{
+	int x=10;
+}
+class demob extends demoa{
+ 
+	void disp() {
+		System.out.println(x);
+	}
+}
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		demob oj1=new demob();
+
+	}
+
+}

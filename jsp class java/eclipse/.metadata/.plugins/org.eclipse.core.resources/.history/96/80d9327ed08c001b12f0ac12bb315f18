@@ -1,0 +1,7 @@
+notes of default constructor;
+
+public class c1{
+  int x=10;         //while compiling the default constrtr AS is public bcoz of class AS is public
+
+
+}

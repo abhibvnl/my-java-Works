@@ -1,0 +1,15 @@
+package varArgs;
+class calc{
+	
+void sum(int [] numbs) {
+	int res;
+}
+}
+public class maincls {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

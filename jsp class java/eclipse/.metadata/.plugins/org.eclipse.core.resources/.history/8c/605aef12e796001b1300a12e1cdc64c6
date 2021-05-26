@@ -1,0 +1,28 @@
+package upex3;
+
+class demo1 {
+	int x=10;
+	void test(){
+		System.out.println(" test() of demo1");
+	}
+}
+
+class demo2 extends demo1 {
+	int y=20;
+	void disp(){
+		System.out.println(" disp() of demo2");
+	}
+}
+class demo3 extends demo2 {
+	int z=30;
+	void view(){
+		System.out.println(" view() of demo3");
+	}
+}
+public class maincls {
+ public static void main(String[] args) {
+	demo2 obj1=  new demo3();
+	
+	obj1.test();
+}
+}

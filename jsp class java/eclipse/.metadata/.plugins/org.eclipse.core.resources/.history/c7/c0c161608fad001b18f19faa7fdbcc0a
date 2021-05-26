@@ -1,0 +1,20 @@
+package prime;
+
+public class prime {
+	public static void main(String[] args) {
+		
+		 int num=4;
+   		 int m=num/2;
+		 
+		 if(num==1 || num==0 ){
+			System.out.println(" not prime");
+		 }
+		 else 
+		 {
+			for(i=2;i<)
+		 }
+	}
+
+ 
+ 
+}

@@ -1,0 +1,20 @@
+package ATM;
+
+public class bank extends atm {
+    double balance;
+    @Override
+	void deposit(int amt) {
+		System.out.println("Amount Deposited SuccessFully");
+		balance+=amt;
+	}
+    @Override
+	void withdraw(int amt) {
+		System.out.println("Amount withDrwan SuccessFully");
+		balance-=amt;
+	}
+    @Override
+	void checkBal() {
+		System.out.println("main Balancce Is "+balance);
+		
+	}
+}

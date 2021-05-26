@@ -1,0 +1,15 @@
+package updown;
+class demo1{
+	int x=10;
+	void test() {
+		System.out.println(" test() method of dmo1");
+	}
+}
+public class mainCls {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

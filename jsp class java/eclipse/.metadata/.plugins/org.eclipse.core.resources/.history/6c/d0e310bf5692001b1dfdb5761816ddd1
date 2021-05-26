@@ -1,0 +1,13 @@
+package ex2;
+
+class demo1{
+	int x;
+}
+public class maincls {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

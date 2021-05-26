@@ -1,0 +1,25 @@
+package ex3;
+
+ class Person {
+
+	 String name;
+	 int age;
+	 char gender;
+	 
+	 Person(String name, int age, String gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+	 
+  }
+ 
+class Student extends Person{
+	 
+	 int marks;
+	 String col;
+	 Student(String name, int age, char gender,int marks,String col){
+	  super(name,age,gender);
+ 
+	 
+ 

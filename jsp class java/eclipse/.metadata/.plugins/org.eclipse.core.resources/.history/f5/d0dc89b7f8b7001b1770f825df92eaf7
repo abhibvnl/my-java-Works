@@ -1,0 +1,12 @@
+package upperCaseLowerCase;
+
+public class prac {
+
+	public static void main(String[] args) {
+		
+		String msg="abhi";
+		int vlaues[]=new int[msg.length()];
+		
+		System.out.println(msg);
+	}
+}

@@ -1,0 +1,23 @@
+package inheritence;
+
+public class demo1 {
+
+	int x=10;
+	void disp1() {
+		System.out.println(x);
+	}
+	
+}
+
+class demo2 extends demo1  {  // inheriting all  x and disp1()
+	int y=10;
+	
+	
+	void disp2() {
+		System.out.println(y);
+	}
+	
+}
+
+
+

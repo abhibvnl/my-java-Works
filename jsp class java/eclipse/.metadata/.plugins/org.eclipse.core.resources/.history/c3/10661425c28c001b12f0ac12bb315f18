@@ -1,0 +1,14 @@
+package proj2;
+
+public class demo1 {
+	
+	public int var1=20;
+	      int var1=20;
+	public int var1=20;
+	public int var1=20;
+	
+   void	f1() {
+	   
+   }
+
+}

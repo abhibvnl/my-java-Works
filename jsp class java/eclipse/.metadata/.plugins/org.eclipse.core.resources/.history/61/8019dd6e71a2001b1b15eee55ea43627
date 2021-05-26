@@ -1,0 +1,9 @@
+package ATM;
+
+public class bank  extends atm{
+    double balance;
+	void deposit(int amt) {
+		System.out.println("Amount Deposited SuccessFully");
+		balance+=amt;
+	}
+}

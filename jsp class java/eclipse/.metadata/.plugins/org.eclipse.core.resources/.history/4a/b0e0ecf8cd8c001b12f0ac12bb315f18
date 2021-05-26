@@ -1,0 +1,6 @@
+
+public class demo2 {
+	
+	dem1 obj1=new demo1();
+
+}

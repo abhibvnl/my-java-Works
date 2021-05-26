@@ -1,0 +1,16 @@
+//progrem to find entered char is vowels or not
+package vowelsJsp1;
+
+import java.util.Scanner;
+public class vowels {
+ 
+	public static void main(String[] args) {
+		 Scanner scan=new Scanner(System.in);
+		char vowels[]={'a','e','i','o','u'}		;
+		
+		System.out.print("enter a char : ");
+		char value=scan.next().charAt(0);
+		
+		
+	}
+}

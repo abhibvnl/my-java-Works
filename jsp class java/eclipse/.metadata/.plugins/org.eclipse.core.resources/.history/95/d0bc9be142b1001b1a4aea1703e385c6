@@ -1,0 +1,12 @@
+package charAdd;
+
+public class add {
+public static void main(String[] args) {
+	char a='2';
+	char b='3';
+	int c=a;
+	int d=b;
+	//int  f=Character.getNumericValue(a);
+	System.out.println(f);
+}
+}

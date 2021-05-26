@@ -1,0 +1,16 @@
+package Account;
+
+public class Account {
+  int accNo=4546;
+  
+  private Account() {   //to restricts object creation in other class
+	  System.out.println("Account created in SBI");
+  }
+   private static Account objRef;
+   public static void main() {
+	   if( objRef==null)
+		objRef=new Account();
+	   else
+		 System.out.println("Account already created in SBI");
+   
+}

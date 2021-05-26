@@ -1,0 +1,29 @@
+package ex3;
+
+
+abstract class vehicle{
+	abstract void start();
+	
+}
+
+abstract class car extends vehicle{
+	abstract void shiftGear();
+	
+}
+
+class driver extends car{
+	void start() {
+		System.out.println("starting car");
+	}
+	
+	void shiftGear() {
+		System.out.println("Channging Gear");
+	}
+public static void main(String[] args) {
+		
+		driver obj =new driver();
+	    obj.start();
+	    obj.shiftGear();
+	}
+}
+

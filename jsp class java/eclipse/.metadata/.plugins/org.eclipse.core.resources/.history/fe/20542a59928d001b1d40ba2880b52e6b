@@ -1,0 +1,12 @@
+package bean;
+
+public class maincls {
+
+	
+	employee e1=new employee(123,abhi,22000.00);
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

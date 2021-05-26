@@ -1,0 +1,15 @@
+package instanceOf;
+
+class demo1{
+	void test() {
+		System.out.println("demo1 test() method");
+	}
+}
+public class maincls1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

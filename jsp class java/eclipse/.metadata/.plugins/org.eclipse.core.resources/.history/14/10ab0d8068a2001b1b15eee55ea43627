@@ -1,0 +1,25 @@
+package calc;
+
+import java.util.Scanner;
+
+public class user {
+
+    public static void main(String[] args) {
+		cal c=new operation();
+		Scanner  scn=new Scanner(System.in);
+		
+		System.out.println("1:add\n2:sub\n3:mul\n4:div\n5:exit");
+		System.out.println("Enter Ur Choice");
+		
+		int choice=scn.nextInt();
+		
+		switch (choice) {
+		case 1:System.out.print("enter No1 : ");
+		       int no1=scn.nextInt();
+		       System.out.print("enter No2 : ");
+		       int no1=scn.nextInt();
+		}
+		
+    }
+
+}

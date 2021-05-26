@@ -1,0 +1,34 @@
+package ex4;
+
+
+abstract class demo1{
+	demo1(){
+		System.out.println("hi...constr of demo1");
+	}
+	
+}
+class demo2 extends demo1{
+	demo2(){
+		//super()   //implicitly
+		System.out.println("hello...constr of demo2");
+	}
+	
+}
+
+class driver extends car{
+	void start() {
+		System.out.println("starting car");
+	}
+	
+	void shiftGear() {
+		System.out.println("Channging Gear");
+	}
+}
+public class maincls {
+	public static void main(String[] args) {
+		
+		driver obj =new driver();
+	    obj.start();
+	    obj.shiftGear();
+	}
+}

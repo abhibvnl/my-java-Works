@@ -1,0 +1,22 @@
+package ex4;
+
+interface swiggy{
+void orderFood();
+}
+
+interface payTm{
+void pay();
+}
+
+class amazon{
+	void orderProduct() {
+	System.out.println("order some products");
+	}
+}
+public class jerry {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

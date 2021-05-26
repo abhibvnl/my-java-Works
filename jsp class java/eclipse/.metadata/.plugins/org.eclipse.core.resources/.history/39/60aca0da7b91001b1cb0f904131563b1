@@ -1,0 +1,22 @@
+package inheritence5;
+
+class demo1{
+	demo1(){
+		System.out.println("constr of demo1");
+	}
+}
+
+class demo2{
+	demo2(){
+		System.out.println("constr of demo1");
+	}
+}
+
+public class maincls {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

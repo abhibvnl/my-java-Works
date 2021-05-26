@@ -1,0 +1,18 @@
+package MethodOvrloding1;
+ class demo{
+void disp() {
+	System.out.println("hi");
+}
+ }
+ 
+ void disp(iString s) {
+		System.out.println("hi");
+	}
+	 }
+public class maincls {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

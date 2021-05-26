@@ -1,0 +1,22 @@
+package encapsulation;
+// int y=10;// this voilets encapsulation rules ,,coz everythink should be in class
+
+public class maincls {     // class is started
+
+	int x=10;
+	
+	maincls(){
+		System.out.println("i am constr ");
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		System.out.println("i m body of main method");
+		maincls m1=new maincls();
+
+	}
+
+}                              //class ended                     

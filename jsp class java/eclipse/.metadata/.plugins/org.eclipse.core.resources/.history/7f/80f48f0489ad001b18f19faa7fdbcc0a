@@ -1,0 +1,19 @@
+package prime;
+
+public class prime {
+	public static void main(String[] args) {
+		
+		 int num=1;
+		 
+		 if(num==1 || num==0 ){
+			System.out.println(" not prime");
+		 }
+		 else 
+		 {
+			 System.out.println(" prime");
+		 }
+	}
+
+ 
+ 
+}

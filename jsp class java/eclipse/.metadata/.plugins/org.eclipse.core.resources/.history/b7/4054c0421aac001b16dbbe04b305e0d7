@@ -1,0 +1,11 @@
+package tohashCode;
+
+public class employee {
+   
+	
+	public static void main(String[] args) {
+		
+		employee e=new employee();
+		System.out.println(e.hashCode());
+	}
+}

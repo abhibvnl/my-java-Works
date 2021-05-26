@@ -1,0 +1,17 @@
+notes of default constructor;
+
+
+ex1:-
+
+public class c1{
+  int x;         //while compiling the default constrtr AS is public bcoz of class AS is public
+
+
+}
+  ex2:- 
+  
+ class c1{
+  int x;         //while compiling the default constrtr AS is package bcoz of class AS is package
+
+
+}

@@ -1,0 +1,10 @@
+package equals;
+
+public class employeB {
+
+	int age;
+	
+	employeB(int age){
+		this age=age;
+	}
+}

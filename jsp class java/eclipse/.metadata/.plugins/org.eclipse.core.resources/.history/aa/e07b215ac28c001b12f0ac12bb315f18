@@ -1,0 +1,14 @@
+package proj2;
+
+public class demo1 {
+	
+	private int var1=20;
+	        int var2=20;    //default access specifier is package ,access lvl only within  package
+	protected int var3=20;
+	public int var4=20;
+	
+   void	f1() {
+	   
+   }
+
+}

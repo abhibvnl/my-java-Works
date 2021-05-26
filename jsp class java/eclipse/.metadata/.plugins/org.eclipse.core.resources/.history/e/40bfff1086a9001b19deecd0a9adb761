@@ -1,0 +1,10 @@
+package adharCard;
+
+public class person {
+
+	private person() {
+		System.out.println("Udai is Generated");
+	}
+	
+ private static	person p; //p=null
+}

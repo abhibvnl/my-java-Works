@@ -1,0 +1,21 @@
+package marriege;
+
+
+
+public class marriege {
+
+ int age=29;
+
+private marriege() {
+	System.out.print("Married  ");
+}
+
+private static marriege p; //p is type of PrimeMinister
+
+public static marriege insOfPm() {
+	if(p==null)
+		p=new marriege();
+	return p;     //returning p obj address
+  }
+
+}

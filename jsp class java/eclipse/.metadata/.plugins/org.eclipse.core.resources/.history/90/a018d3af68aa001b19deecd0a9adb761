@@ -1,0 +1,15 @@
+package ex1;
+
+// implicitly imports java.lang.*;
+
+public class student  { //implicitly inherits Object class
+  
+	public static void main(String[] args) {
+		@Override
+		public String toString() {
+			retutn "abhi
+		}
+		Object obj=new student(); //upcating To Object class
+		System.out.println(obj.toString());
+	}
+}

@@ -1,0 +1,6 @@
+package inheritence;
+
+public class demo1 {
+
+	int x=10;
+}

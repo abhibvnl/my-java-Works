@@ -1,0 +1,9 @@
+package ex3;
+
+ class Person {
+
+	 String name;
+	 int age;
+	 String gender;
+
+}

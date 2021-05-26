@@ -1,0 +1,16 @@
+package bean;
+
+public class employee {
+	
+	private int id;
+	private String name;
+	private double salary;
+	
+	employee( int i,String n,double s){
+		id=i;
+		name=n;
+		salary=s;
+		
+	}
+
+}

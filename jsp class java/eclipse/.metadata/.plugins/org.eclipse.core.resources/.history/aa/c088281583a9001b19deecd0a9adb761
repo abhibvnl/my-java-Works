@@ -1,0 +1,10 @@
+//Singleton class used to ctreate only one obj per class
+//rules
+//1)private Cnonstructor  
+//2)public static helper method to create obj within the same cls
+//3)private static objRef 
+package basic;
+
+public class demo {
+
+}

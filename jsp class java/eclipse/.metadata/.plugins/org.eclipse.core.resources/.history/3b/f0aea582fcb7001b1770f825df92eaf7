@@ -1,0 +1,6 @@
+package charToString;
+
+public class charToString {
+
+	char myChar='A';
+}

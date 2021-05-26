@@ -1,0 +1,13 @@
+package inheritence;
+
+public class maincls {
+
+	public static void main(String[] args) {
+		demo2 obj1=new demo2();
+		System.out.println(obj1.x);
+		obj1.x=20;
+		System.out.println(obj1.x);
+		obj1.disp1();
+	}
+
+}

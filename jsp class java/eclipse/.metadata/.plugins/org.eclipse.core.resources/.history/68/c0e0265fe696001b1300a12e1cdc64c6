@@ -1,0 +1,12 @@
+package updownex3;
+
+class demo {
+	int x=10;
+	
+}
+
+public class maincls {
+ public static void main(String[] args) {
+	
+}
+}

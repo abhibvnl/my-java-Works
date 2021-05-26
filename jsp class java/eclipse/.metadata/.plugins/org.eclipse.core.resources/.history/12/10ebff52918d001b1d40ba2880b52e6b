@@ -1,0 +1,43 @@
+package bean;
+
+public class employee {     //1 rule class must be a public
+	
+	private int id;
+	private String name;
+	private double salary;
+	
+	employee( int i,String n,double s){   //2nd rule constrtr must b public 
+		id=i;
+		name=n;
+		salary=s;
+		}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	
+	
+	
+
+}

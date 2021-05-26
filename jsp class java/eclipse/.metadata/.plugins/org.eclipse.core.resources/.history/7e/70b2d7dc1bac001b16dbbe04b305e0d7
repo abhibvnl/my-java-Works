@@ -1,0 +1,20 @@
+package equals;
+
+public class employeB {
+
+	int age;
+	
+	employeB(int age){
+		this.age=age;
+	}
+	
+	@Override
+	public
+	
+	
+	public static void main(String[] args) {
+		
+		employeB e1=new employeB(10);
+		employeB e2=new employeB(10);
+	}
+}

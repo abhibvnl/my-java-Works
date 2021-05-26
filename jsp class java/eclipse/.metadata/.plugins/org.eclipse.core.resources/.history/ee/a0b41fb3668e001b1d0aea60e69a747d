@@ -1,0 +1,9 @@
+package inheritence;
+
+public class demo1 {
+
+	int x=10;
+	void disp1() {
+		System.out.println(x);;
+	}
+}

@@ -1,0 +1,5 @@
+package prime;
+// String primes=Integer.toString(primeCnt);
+public class primeCnt100B {
+
+}

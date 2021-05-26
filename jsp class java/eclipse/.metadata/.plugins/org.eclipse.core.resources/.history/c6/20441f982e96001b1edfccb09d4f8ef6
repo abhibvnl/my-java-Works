@@ -1,0 +1,8 @@
+package accesSPec;
+
+public class demo1 {
+  
+	void test() {
+		int x=0;
+	}
+}

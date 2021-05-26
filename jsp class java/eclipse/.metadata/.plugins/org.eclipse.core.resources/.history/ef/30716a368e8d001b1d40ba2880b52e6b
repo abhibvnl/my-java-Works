@@ -1,0 +1,18 @@
+package encapsulation;
+
+public class maincls {
+
+	int x=10;
+	
+	maincls(){
+		System.out.println("i am constr ";
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

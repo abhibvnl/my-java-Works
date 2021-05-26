@@ -1,0 +1,14 @@
+
+abstract class demo1{
+	abstract void test();
+	
+}
+
+class demo2 extends demo1{
+  void tset() {
+	  System.out.println("hi");
+  }
+}
+public class maincls {
+ 
+}

@@ -1,0 +1,16 @@
+package equals;
+
+public class employeB {
+
+	int age;
+	
+	employeB(int age){
+		this.age=age;
+	}
+	
+	public static void main(String[] args) {
+		
+		employeB e1=new employeB(10);
+		employeB e1=new employeB(20);
+	}
+}
