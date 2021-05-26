@@ -1,9 +1,0 @@
-package Account;
-
-public class Account {
-  int accNo=4546;
-  
-  private Account() {   //to retricts object creation in other class
-	  System.out.println("Account created in SBI");
-  }
-}

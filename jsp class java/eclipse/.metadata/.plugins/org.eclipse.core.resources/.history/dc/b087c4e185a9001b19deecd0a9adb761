@@ -1,8 +1,0 @@
-package adharCard;
-
-public class person {
-
-	private person() {
-		System.out.println("Udai is Generated");
-	}
-}

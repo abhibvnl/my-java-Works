@@ -1,9 +1,0 @@
-package primeMinister;
-
-public class primeMinister {
-
-String name="modi";
-private primeMinister() {
-	System.out.println("Pm got elected");
-}
-}

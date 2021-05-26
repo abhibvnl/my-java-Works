@@ -1,8 +1,0 @@
-package ex1;
-
-// implicitly imports java.lang.*;
-
-public class student  { //implicitly inherits Object class
-  
-	
-}

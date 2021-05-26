@@ -1,7 +1,0 @@
-package ATM;
-
-public abstract class atm {
-	abstract  void deposit();
-	abstract  void withdraw();
-	abstract  void checkBal();
-}

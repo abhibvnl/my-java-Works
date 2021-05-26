@@ -1,8 +1,0 @@
-package ATM;
-
-public class bank  extends atm{
-    double balance;
-	void deposit(int amt) {
-		balance+=amt;
-	}
-}

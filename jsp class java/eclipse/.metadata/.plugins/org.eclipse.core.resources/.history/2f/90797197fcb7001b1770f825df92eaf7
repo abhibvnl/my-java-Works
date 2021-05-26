@@ -1,8 +1,0 @@
-package charToString;
-
-public class charToString {
-
-	char myChar='A';
-	
-	String myString=Character.toString(myChar);
-}

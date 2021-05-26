@@ -15,7 +15,7 @@ public class polindrome{
         for(int i=0; i<array.length; i++){
             array[i]=value.charAt(i);  // value.charAt(index)-->its string method 
                                 }      //returns the char at index of string 
-                                       //storing the return value into array
+                                       //storing the return value into array.
                                     
        // System.out.println(Arrays.toString(array));
         
