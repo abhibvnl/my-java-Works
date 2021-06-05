@@ -1,9 +1,9 @@
-
+package atm;
 import java.util.*;
+public class atmThreeAttempts {
 
-class atmPin2 {
 
-    static void f1()
+    static void withDraw()
     {
       double bnkAmt=10000.00;
 
@@ -25,7 +25,7 @@ class atmPin2 {
      public static void main(String[] args)
       {
         int attempt=3;
-        int atmPin=1289;
+        int atmPin=1234;
         
         
         Scanner scanner1= new Scanner(System.in);
@@ -34,7 +34,7 @@ class atmPin2 {
 
         if(pin==atmPin )
          {
-             f1();
+             withDraw();
          }
         else
           {
@@ -54,7 +54,7 @@ class atmPin2 {
                  pin = scanner1.nextInt();
                 if(pin==atmPin)
                 {
-                  f1();
+                	withDraw();
                    break;
                 }
                 else
@@ -64,7 +64,7 @@ class atmPin2 {
                 }
                }
            }
-
+        scanner1.close();
      } 
    }
 
