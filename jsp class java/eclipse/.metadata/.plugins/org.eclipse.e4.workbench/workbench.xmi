@@ -71,12 +71,10 @@
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.debugActionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_DTyNxbF-EeuGyPJY8wIZDA" selectedElement="_DTyNxrF-EeuGyPJY8wIZDA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_DTyNxbF-EeuGyPJY8wIZDA" selectedElement="_DTyNzrF-EeuGyPJY8wIZDA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_DTyNxrF-EeuGyPJY8wIZDA" containerData="2191" selectedElement="_DTyNx7F-EeuGyPJY8wIZDA">
               <children xsi:type="basic:PartStack" xmi:id="_DTyNx7F-EeuGyPJY8wIZDA" elementId="left" containerData="6000" selectedElement="_DTyNyrF-EeuGyPJY8wIZDA">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
-                <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_DTyNyLF-EeuGyPJY8wIZDA" elementId="org.eclipse.jdt.ui.PackageExplorer" toBeRendered="false" ref="_DTy2lLF-EeuGyPJY8wIZDA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Java</tags>
@@ -366,6 +364,7 @@
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_DTy2WLF-EeuGyPJY8wIZDA" elementId="org.eclipse.ui.editorss" selectedElement="_DTy2WbF-EeuGyPJY8wIZDA">
       <children xsi:type="basic:PartStack" xmi:id="_DTy2WbF-EeuGyPJY8wIZDA" elementId="PartStack@823fb3a" selectedElement="_CB2oEMSTEeu0Eo9aUdi6hA">
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_FCOXAMCcEeuIUaAQ4CI0Ow" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="demo1.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;demo1.java&quot; partName=&quot;demo1.java&quot; title=&quot;demo1.java&quot; tooltip=&quot;19 ExceptionHandling/src/ex7CheckedException/demo1.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/19 ExceptionHandling/src/ex7CheckedException/demo1.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;271&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -463,10 +462,12 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_CB2oEMSTEeu0Eo9aUdi6hA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="whatsApp.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;whatsApp.java&quot; partName=&quot;whatsApp.java&quot; title=&quot;whatsApp.java&quot; tooltip=&quot;programs/src/whatsAppJsp3/whatsApp.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/programs/src/whatsAppJsp3/whatsApp.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;whatsApp.java&quot; partName=&quot;whatsApp.java&quot; title=&quot;whatsApp.java&quot; tooltip=&quot;programs/src/whatsAppJsp3/whatsApp.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/programs/src/whatsAppJsp3/whatsApp.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;458&quot; selectionTopPixel=&quot;70&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -494,8 +495,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1617213415581&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;1&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_QqJugL5OEeu_Hqb4ZCOHLQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -713,7 +712,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DTy2-rF-EeuGyPJY8wIZDA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_33DxYMR5Eeu0Eo9aUdi6hA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_DT1SDLF-EeuGyPJY8wIZDA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ETmY4MTuEeuBfrR8QwIlMw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_DT1SDLF-EeuGyPJY8wIZDA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DTzb7LF-EeuGyPJY8wIZDA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -744,7 +743,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DTzcPLF-EeuGyPJY8wIZDA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_33Ip4MR5Eeu0Eo9aUdi6hA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_DT1RibF-EeuGyPJY8wIZDA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ETtGkMTuEeuBfrR8QwIlMw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_DT1RibF-EeuGyPJY8wIZDA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_DTzcSLF-EeuGyPJY8wIZDA" elementId="org.eclipse.jdt.ui.ClassFileEditor" visible="false">
         <tags>Draggable</tags>

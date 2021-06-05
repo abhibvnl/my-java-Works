@@ -1,1 +1,0 @@
-var name=prompt("enter")
