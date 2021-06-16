@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 	public static void main(String[] args) {
 		
-		int myNumbs[]= {1,7,5,8,6,3,9,2,4};
+		int myNumbs[]= {1,7,5,8,6,3,9,2,4,10};
 		int temp=0;
 		
 		for(int i=0;i<myNumbs.length-1;i++)
