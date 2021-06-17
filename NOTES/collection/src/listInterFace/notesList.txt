@@ -1,0 +1,45 @@
+specs:-of List InterFace
+
+1)duplicates allowed
+2)null can be inserted
+3)insertion order
+4)index based
+
+methods in Lists:-
+
+add(object)
+addAll(Collection)
+indexOf(object)
+lastIndexof(object)
+remove(index)
+removeAll(Collection)
+contains(object)
+conatinsAll(Collection)
+size()
+clear()
+isEmpty()
+get(index)
++ Iterator iterator();
+
+
+extends four classes:-
+1)ArrayList
+2)LinkedList
+3)Vector
+4)Stack
+
+ArrayList has 3 constructors
+1)new ArrayList();
+2)new ArrayList(Collection);
+3)new ArrayList(int Ini cap);
+
+LinkedList has 2 constructors
+1)new LinkedList();
+2)new LinkedList(Collection);
+
+Vector has 4 constructors
+1)new Vector();
+2)new Vector(Collection);
+3)new Vector(int Ini cap);
+4)new Vector(int Ini cap,int Inc cap);
+

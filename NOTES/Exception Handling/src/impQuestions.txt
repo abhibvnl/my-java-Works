@@ -1,0 +1,7 @@
+diffrence between final,finalize,finally
+
+diffrence between String ,StringBuffer,String Builder.
+
+what is error ,Exception
+
+what is throw throws.
