@@ -6,10 +6,10 @@ public class sol2 {
 		int cnt=1;
 		for(int i=0; i<5; i++) {
 		
-				for(int j=0;j<=i;j++) 
-				System.out.print(cnt++ +" ");
+	     for(int j=0;j<=i;j++) 
+		 System.out.print(cnt++ +" ");
 		
-				System.out.println();
+		 System.out.println();
 			}
 			
 		}
