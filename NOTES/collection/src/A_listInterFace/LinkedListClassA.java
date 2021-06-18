@@ -2,7 +2,7 @@
 //Object stored In form of nodes
 //[previousAddrss,Object.NextAdress]=Node
 
-package listInterFace;
+package A_listInterFace;
 
 import java.util.LinkedList;
 

@@ -2,7 +2,7 @@
 //ini cap=10,Inc cap=Cur cap*2
 //PDC,1.0,legacy collection,J.util
 
-package listInterFace;
+package A_listInterFace;
 
 import java.util.Vector;
 

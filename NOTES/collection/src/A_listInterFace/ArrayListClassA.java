@@ -2,7 +2,7 @@
 //ArrayList Ini cap=10
 //inc cap=curr cap*3/2+1;
 //
-package listInterFace;
+package A_listInterFace;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
