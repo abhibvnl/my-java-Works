@@ -1,0 +1,13 @@
+<<Comparator>>
+
+1)PDC,j.util,1.2
+2)has One compare(); abstract method 
+    syntax:  + int compare(Object to be inserted, already excisting Obj)
+    
+    
+-->>rules to make custom Objects compare/sort using  <<Comparator>>
+
+1)Design a new class in such way which implement  <<Comparator>> & specify Generic type
+2)import <<Comparator>>
+3)Override compare(); method,by specifying Buisness logic for Comparing and sorting
+4)Pass the Object (create and pass) of the class which has the sorting logic and to the Constructor of TreeSet

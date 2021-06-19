@@ -13,5 +13,4 @@
      (public class student implements Comparable<student>{.....})
 3)Override compareTo and write buisness logic of sort
 
-
 Has 1 PD method->  public int compareTo();

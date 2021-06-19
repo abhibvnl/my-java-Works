@@ -1,0 +1,24 @@
+<<Map>> is a part of collection but not inherits the <<Collection>> 
+-->Has some methods
+
+1)put(key,value) ;
+2)get(key);
+3)containsKey(key);
+4)containsValue(value);
+5)remove(key)
+
+<<map>> has 3 subClasses
+
+1)HashMap  
+->does not maintain Insertion Order
+
+Objects are stored in form of Key and value
+example:-
+key   : 10   :  20   : 30
+value : "A"  :  "B"  : "C"
+
+2)LinkedHashMap
+->maintain Insertion Order
+
+3)TreeMap
+->maintain sorted order

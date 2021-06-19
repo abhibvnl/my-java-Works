@@ -1,3 +1,4 @@
+//by default maintain sorted order...
 package C_SetInterFace;
 
 import java.util.TreeSet;
