@@ -1,4 +1,4 @@
-//maintain insertion order
+//maintain insertion order based on key nly
 package D_mapInterFace;
 
 import java.util.LinkedHashMap;
