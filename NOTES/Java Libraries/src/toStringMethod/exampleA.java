@@ -10,5 +10,6 @@ public class exampleA {
 		exampleA e=new exampleA();
 		
 		System.out.println(e);//prnts FQCN from toString method
+		
 	}
 }

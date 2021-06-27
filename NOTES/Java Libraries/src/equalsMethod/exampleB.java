@@ -17,7 +17,7 @@ public class exampleB {
 
 
 	@Override
-   public boolean equals(Object obj) {
+   public boolean equals(Object obj) {//Object obj=e2   //Object obj=new new exampleB("abhi"); //Uc 
 	exampleB e=(exampleB) obj;
 	return this.name==e.name;
    }

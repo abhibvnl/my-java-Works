@@ -7,11 +7,9 @@ public class E_SmallestNo {
 		int myNumbs[]= {17,59,41,29,9,89,58,11};
 		int sml=myNumbs[0];
 		
-		for(int j=0;j<myNumbs.length;j++) 
-			if(sml<myNumbs[j]) 
-		    sml=sml;	
-			else
-		    sml=myNumbs[j];
+		for(int i=0;i<myNumbs.length;i++) 
+			if(myNumbs[i]<sml) 
+		    sml=myNumbs[i];
 		
 		
 		 System.out.println("smallest number oin Array : "+ sml);

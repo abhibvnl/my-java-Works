@@ -1,3 +1,4 @@
+//addition of digits in the seq
 package digits;
 
 import java.util.Scanner;

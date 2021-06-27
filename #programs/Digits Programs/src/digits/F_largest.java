@@ -7,11 +7,9 @@ public class F_largest {
 		int myNumbs[]= {17,59,41,29,9,89,58,11};
 		int large=myNumbs[0];
 		
-		for(int j=0;j<myNumbs.length;j++) 
-			if(large>myNumbs[j]) 
-		    large=large;	
-			else
-		    large=myNumbs[j];
+		for(int i=0;i<myNumbs.length;i++) 
+			if(myNumbs[i]>large) 
+			    large=myNumbs[i];
 		
 		
 		 System.out.println("largest number in Array : "+ large);

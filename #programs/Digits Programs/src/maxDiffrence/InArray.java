@@ -30,7 +30,7 @@ public class InArray {
 	    public static void main(String[] args) {
 	      
 	       
-	                int array[]={10,11,7,12,20};
+	                int array[]={10,11,7,12,28};
 	                System.out.println(Arrays.toString(array));
 
 	                int res=0;

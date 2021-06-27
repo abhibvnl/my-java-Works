@@ -24,7 +24,7 @@ public class BetweenTwo {
                 System.out.print("enter No2 : ");
                 int no2=scan.nextInt();
 
-	             int res= max(no1,no2);
-	              System.out.println(res);
+	         
+	              System.out.println(max(no1,no2));
 	            }
 	        }
