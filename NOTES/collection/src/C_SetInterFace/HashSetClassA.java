@@ -11,7 +11,9 @@ public class HashSetClassA {
 	  hs.add(40.0);
 	  hs.add(30);
 	  hs.add("java");
-	  
+	  hs.add(50);
+	  hs.add(null);
+
 	  for(Object i: hs)
 		  System.out.println(i);
 }

@@ -8,7 +8,7 @@ public class leftShiftByN {
 	
 	   int a[]= {1,2,3,4,5};
 	   
-		 int times=2;    //shift array lest by 2 times
+		 int times=2;    //shift array left by 2 times
 		for(int i=0;i<times;i++)
 			 for(int j=0;j<a.length-1;j++) {
 				int temp=a[j+1];	

@@ -1,4 +1,6 @@
-package D_mapInterFace;
+//value is Custom object
+
+package D_mapInterFace.HashMap;
 
 import java.util.HashMap;
 import java.util.Set;

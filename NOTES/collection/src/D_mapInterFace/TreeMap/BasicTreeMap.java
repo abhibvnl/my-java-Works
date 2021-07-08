@@ -1,11 +1,11 @@
 //maintain insertion order based on key nly
-package D_mapInterFace;
+package D_mapInterFace.TreeMap;
 
 import java.util.LinkedHashMap;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class TreeMapClassA {
+public class BasicTreeMap {
   public static void main(String[] args) {
 	
 	  TreeMap<Integer, Double > tm=new  TreeMap<>();

@@ -1,4 +1,4 @@
-package D_mapInterFace;
+package D_mapInterFace.HashMap;
 
 import java.util.HashMap;
 import java.util.Set;
@@ -12,8 +12,9 @@ public class HashMapClassB {
    	   hs.put(5, "hi");
    	   hs.put(9, "bye");
    	   
-   	   Set<Integer> keys = hs.keySet(); //method returns set of keys,,
+   	   Set<Integer> keys = hs.keySet(); //method returns set of keys of type Set InterFace,,
    	  
+   	   //for each 
    	   for(int key:keys)
    		   System.out.print(key+" "+  hs.get(key)+"\n");
 	}

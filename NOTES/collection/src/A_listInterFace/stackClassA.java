@@ -16,6 +16,11 @@ public static void main(String[] args) {
 	System.out.println(s.get(i));
 	
 	System.out.println("-----------------------");
+	System.out.println("using for each loop");
+	for(Object obj:s)
+	System.out.println(obj);
+	
+	System.out.println("-----------------------");
 	System.out.println(s.size());
 	System.out.println("-----------------------");
 	
@@ -23,6 +28,8 @@ public static void main(String[] args) {
 	System.out.println(s.pop());//lifo
 	System.out.println(s.pop());
 	System.out.println(s.pop()); //once u pop object ,object removed from memory
+	//System.out.println(s.pop());  //Gives Empty stack exception
+	System.out.println(s);
 	
 	System.out.println("-----------------------");
 	System.out.println(s.size());

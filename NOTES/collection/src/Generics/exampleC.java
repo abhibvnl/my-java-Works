@@ -8,11 +8,11 @@ public class exampleC {
   
 	public static void main(String[] args) {
 		
-		ArrayList al=new ArrayList();  //<Generics>
+		ArrayList al=new ArrayList();  
 		
 		al.add(50);
 		al.add(70);
-		al.add("Hi"); //gives error becuase used Generics 
+		al.add("Hi"); 
 		al.add(60.56);
 		al.add("java");
 		

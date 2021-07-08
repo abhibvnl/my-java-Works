@@ -1,5 +1,6 @@
 //not maintain insertion order
-package D_mapInterFace;
+//Methods Used In Maps
+package D_mapInterFace.HashMap;
 
 import java.util.HashMap;
 

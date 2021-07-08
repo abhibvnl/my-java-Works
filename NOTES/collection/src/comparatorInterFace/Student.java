@@ -37,7 +37,7 @@ public static void main(String[] args) {
 	   SortStudentByAge age=new SortStudentByAge();
 	   SortStudentByPercentage percentage=new SortStudentByPercentage();
 	   
-	   TreeSet<Student> ts=new TreeSet<Student>(Name);//sorting by Name
+	   TreeSet<Student> ts=new TreeSet<Student>(age);//sorting by Name
 	   
 	   ts.add(s1);
 	   ts.add(s2);

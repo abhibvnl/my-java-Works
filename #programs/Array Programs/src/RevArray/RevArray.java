@@ -1,4 +1,4 @@
-//program to rev the array
+//program to rev the array with another array
 package RevArray;
 
 import java.util.Arrays;

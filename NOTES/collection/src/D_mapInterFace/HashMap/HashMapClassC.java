@@ -1,4 +1,5 @@
-package D_mapInterFace;
+//example 1
+package D_mapInterFace.HashMap;
 
 import java.util.HashMap;
 import java.util.Scanner;

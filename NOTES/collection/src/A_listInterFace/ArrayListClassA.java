@@ -22,7 +22,7 @@ public class ArrayListClassA {
 		al.add('C');
 		al.add(10);                     //1
 		 
-		System.out.println(al);//implicitly override tostring
+		System.out.println(al);   //implicitly override tostring
 		
 		al.addAll(ll);                    //2
 		System.out.println(al);
@@ -45,7 +45,7 @@ public class ArrayListClassA {
 		System.out.println(al.isEmpty());  //11
 		
 		al.clear();                        //12
-		
+		System.out.println(al);
 		System.out.println(al.isEmpty());  //11
 		
 		
