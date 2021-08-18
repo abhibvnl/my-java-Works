@@ -1,0 +1,25 @@
+queue Has 2 sub Classes
+1)LinkedList Class
+2)PriorityQueue class
+
+
+QueueInterFace has 4 methods
+
+
+1)element()
+*)when Queue Has Objects returns head element
+*)when Queue is Empty returns NSE Exception 
+
+2)peek()
+*)when Queue Has Objects returns head element
+*)when Queue is Empty returns Null
+
+3)remove()
+*)when Queue Has Objects,remove and returns head element
+*)when Queue is Empty,returns NSE Exception 
+
+4)poll()
+*)when Queue Has Objects,remove and returns head element
+*)when Queue is Empty,returns Null
+
+we can use these methods in Both of The Above Classes

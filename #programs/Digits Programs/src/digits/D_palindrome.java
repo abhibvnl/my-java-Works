@@ -14,7 +14,7 @@ public class D_palindrome {
 		
 		int rev=0;
 		
-		while(myNumb!=0) {
+		while(myNumb>0) {
 		int rem=myNumb%10;
 	    rev=rev*10+rem;
 		myNumb/=10;

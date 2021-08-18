@@ -12,15 +12,15 @@ public class C_revNumb {
 		int myNumb=scan.nextInt();
 		
 		
-		System.out.println("reveresed numb entered");
+		System.out.print("reveresed numb is : ");
 		
-		
+		int rev=0,rem=0;
 		while(myNumb>0) {
-		int last=myNumb%10;
-		System.out.print(last);
+		rem=myNumb%10;
+	    rev=rev*10+rem;
 		myNumb/=10;
 		}
-		
+		System.out.println(rev);
 		
 	
 		

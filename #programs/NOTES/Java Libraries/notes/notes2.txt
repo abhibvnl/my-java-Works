@@ -1,0 +1,171 @@
+
+Prepared by Uday Pawar
+
+
+equals()
+- equals() is used to compare the content/members of two objeects.
+- equals() is used for content comparison.
+syntax: public boolean equals(Object obj)
+
+1.
+package comparingobjects;
+
+public class Student {
+
+	int age;
+	
+	Student(int age) {
+		this.age = age;
+	}
+	
+	public static void main(String[] args) {
+		
+		Student s1 = new Student(20);
+		Student s2 = new Student(20);
+		
+		System.out.println(s1 == s2); // false
+		
+		System.out.println(s1.equals(s2)); // false
+		
+	}
+	
+}
+
+2.
+package comparingobjects;
+
+public class Student {
+
+	int age;
+
+	Student(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public boolean equals(Object obj)
+	{
+		Student s = (Student) obj;	
+		return this.age == s.age;
+	}
+
+	public static void main(String[] args) {
+
+		Student s1 = new Student(20);
+		Student s2 = new Student(20);
+
+		System.out.println(s1 == s2); // false
+
+		System.out.println(s1.equals(s2)); // true
+
+	}
+
+}
+
+// s1 -> this
+// s2 -> obj -> s
+
+o/p:
+false
+true
+
+3.
+package comparingobjects;
+
+public class Employee {
+
+	int id;
+	double height;
+
+	Employee(int id, double height) {
+		this.id = id;
+		this.height = height;
+	}
+
+	@Override
+	public boolean equals(Object obj)
+	{
+		Employee emp = (Employee) obj;
+		return this.id == emp.id && this.height == emp.height;
+	}
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(101, 5.8);
+		Employee e2 = new Employee(102, 5.8);
+
+		System.out.println(e1.equals(e2));
+
+		System.out.println("---------------------");
+
+		System.out.println(new Employee(1, 5.7).equals(new Employee(1, 5.4)));
+
+		System.out.println("----------------------"); 
+
+		if(e1.equals(e2)) {
+			System.out.println("Contents are Same");
+		}
+		else {
+			System.out.println("Contents are Different");
+		}
+
+
+
+	}
+
+}
+
+o/p:
+false
+---------------------
+false
+----------------------
+Contents are Different
+
+2. hashCode()
+***************
+syntax : public int hashCode()
+
+hashCode() is used to identify an object uniquely
+hashCode() return a number or id to uniquely Identify an Object.
+
+5.
+package com;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		
+		System.out.println(e.hashCode());
+		
+	}
+	
+}
+
+o/p:
+366712642
+
+6.
+package com;
+
+public class Employee {
+
+	@Override
+	public int hashCode() {
+		return 124;
+	}
+	
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		
+		System.out.println(e.hashCode()); 
+		
+	}
+	
+}
+
+o/p:
+124

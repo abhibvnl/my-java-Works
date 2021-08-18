@@ -1,0 +1,16 @@
+///TreeSet//auto implements <<Comparable>>,auto Overrides compareTo();
+
+->if u want custom objects to be comparable or sort ,we have to go for <<Comparable>>,
+
+->All wrapper classes and String has compareTo method,and No need to override
+
+->if u want ArrayList/LinkedList to be Sort ,implements <<Comparable>>,manually Overrides compareTo()
+
+->Rules to Custom objects are comparable
+
+1)class has to be implement the   <<Comparable>>
+2)specify generic type of which objects u were going to compare
+     (public class student implements Comparable<student>{.....})
+3)Override compareTo and write buisness logic of sort
+
+Has 1 PD method->  public int compareTo();

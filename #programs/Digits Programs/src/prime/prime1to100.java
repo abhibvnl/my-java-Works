@@ -14,6 +14,7 @@ public class prime1to100 {
 				 
 			      if(prime)     // if(prime==true)--->shortHand--->if(prime)
 				  System.out.println(no);
+			 
 		     }
 		 
 			 

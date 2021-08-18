@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="collection/src"/>
+	<classpathentry kind="src" path="Constructors/src"/>
+	<classpathentry kind="src" path="Exception Handling/src"/>
+	<classpathentry kind="src" path="Interview/src"/>
+	<classpathentry kind="src" path="Java Libraries/src"/>
+	<classpathentry kind="src" path="practice/src"/>
+	<classpathentry kind="src" path="SingleTon class/src"/>
+	<classpathentry kind="src" path="StringMethods/src"/>
+	<classpathentry kind="output" path="Constructors/bin"/>
+</classpath>

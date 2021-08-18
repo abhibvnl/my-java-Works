@@ -2,7 +2,7 @@ package digits;
 
 import java.util.Arrays;
 
-public class asccending {
+public class H_asccending {
    public static void main(String[] args) {
 	int a[]= {4,3,9,7,6,1,8};
 	

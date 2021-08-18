@@ -1,0 +1,46 @@
+setInterFace specs
+
+1)Duplication not allows
+2)Null Obj Insertion not allows
+3)not index based (so  get(index); method  not works)
+4)Insertion Order not maintained(Except LinkedHashSet class)
+
+SeetInterFace has subClasses
+
+1)HashSet class
+2)LinkedHashSet class
+3)TreeSet class
+
+1)HashSet
+
+->Insertion Order not maintained
+->initial capacity 16
+->Inc capacity=Cur Cap+75% of previous Cap
+  example=cur cap is 16,& 75% of 16 is 12,Inc cap=16+12=28
+->Objects stored in form of HashTable
+
+   key(HashCode of Obj) | value(Object)
+------------------------------------------ ex:--hs.add(50);,hs.add("java"); 
+   148613               |  50
+   466244               |  java
+    
+2)LinkedHashSet class
+->Insertion Order maintained
+
+3)TreeSet class
+->sorted Order maintained
+->internally Extends <<comparable>>
+->if Objects are Comparable(similar Type of Objects) implicitly calls compareTo() method.
+->Traversing Order (LeftNode->ParentNode->RightNOde)
+
+if i add 1) ts.add(50);  1st object is always RootNode
+         2) ts.add(40)   40.comprareTo(50); 40<50 method returns -1,means 40 joins LHS of 50
+         3) ts.add(30)   30.comprareTo(50); 30<50 method returns -1,means 30 joins LHS of 50
+         
+                         1 more 40 obj is in LHS,it will compare with that too,
+                         
+                         30.comprareTo(40); 30<40 method returns -1,means 30 joins LHS of 40  
+         4) ts.add(60)   60.comprareTo(50); 60>50 method returns +1,means 60 joins RHS of 50
+
+         
+        imp: Every Wrapper class and String has own compareTo method
